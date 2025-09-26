@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypesOfAssistance__c</fullName>
+    <label>Types Of Assistance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project Grants</fullName>
+                <default>false</default>
+                <label>Project Grants</label>
+            </value>
+            <value>
+                <fullName>Direct Payments with Unrestricted Use</fullName>
+                <default>false</default>
+                <label>Direct Payments with Unrestricted Use</label>
+            </value>
+            <value>
+                <fullName>DIRECT LOANS</fullName>
+                <default>false</default>
+                <label>DIRECT LOANS</label>
+            </value>
+            <value>
+                <fullName>DIRECT PAYMENTS FOR A SPECIFIED USE</fullName>
+                <default>false</default>
+                <label>DIRECT PAYMENTS FOR A SPECIFIED USE</label>
+            </value>
+            <value>
+                <fullName>Cooperative Agreements</fullName>
+                <default>false</default>
+                <label>Cooperative Agreements</label>
+            </value>
+            <value>
+                <fullName>Formula Grants</fullName>
+                <default>false</default>
+                <label>Formula Grants</label>
+            </value>
+            <value>
+                <fullName>Guaranteed/Insured Loans</fullName>
+                <default>false</default>
+                <label>Guaranteed/Insured Loans</label>
+            </value>
+            <value>
+                <fullName>DISSEMINATION OF TECHNICAL INFORMATION</fullName>
+                <default>false</default>
+                <label>DISSEMINATION OF TECHNICAL INFORMATION</label>
+            </value>
+            <value>
+                <fullName>ADVISORY SERVICES AND COUNSELING</fullName>
+                <default>false</default>
+                <label>ADVISORY SERVICES AND COUNSELING</label>
+            </value>
+            <value>
+                <fullName>PROVISION OF SPECIALIZED SERVICES</fullName>
+                <default>false</default>
+                <label>PROVISION OF SPECIALIZED SERVICES</label>
+            </value>
+            <value>
+                <fullName>TRAINING</fullName>
+                <default>false</default>
+                <label>TRAINING</label>
+            </value>
+            <value>
+                <fullName>INVESTIGATION OF COMPLAINTS</fullName>
+                <default>false</default>
+                <label>INVESTIGATION OF COMPLAINTS</label>
+            </value>
+            <value>
+                <fullName>Research Grants</fullName>
+                <default>false</default>
+                <label>Research Grants</label>
+            </value>
+            <value>
+                <fullName>Block Grants</fullName>
+                <default>false</default>
+                <label>Block Grants</label>
+            </value>
+            <value>
+                <fullName>Earmark Grants</fullName>
+                <default>false</default>
+                <label>Earmark Grants</label>
+            </value>
+            <value>
+                <fullName>Emergency Grants</fullName>
+                <default>false</default>
+                <label>Emergency Grants</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

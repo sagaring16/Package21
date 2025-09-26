@@ -1,0 +1,31 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.3",
+      "versionNumber": "0.3.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "Package21",
+      "versionDescription": "",
+      "ancestorId": "04tdL000000CpRlQAK",
+      "dependencies": [
+        {
+          "subscriberPackageVersionId": "04tHq000001Yw82IAC"
+        }
+      ],
+      "definitionFile": "config/project-scratch-def.json"
+    }
+  ],
+  "name": "Package21",
+  "namespace": "DNT",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "GovGrants 2.0": "04tHq000001Yw82IAC",
+    "Package21": "0HodL0000001NH7SAM",
+    "Package21@0.1.0-1": "04tdL000000CoaXQAS",
+    "Package21@0.1.0-2": "04tdL000000Coc9QAC",
+    "Package21@0.2.0-1": "04tdL000000CpRlQAK",
+    "Package21@0.3.0-1": "04tdL000000Cqm1QAC"
+  }
+}

@@ -1,0 +1,149 @@
+.THIS .btn-collapse{
+    width: 18px;
+    background-color: #00396B;
+    height: 50px;
+    align-items: center;
+}
+
+.THIS .btn-collapse-header{
+    width: 50px;
+    background-color: #00396B;
+    height: 18px;
+    min-height: 18px !important;
+    align-items: center;  
+}
+
+.THIS .slds-hide {
+    display: none !important;
+}
+
+.THIS .right-panel.slds-size_3-of-12{
+    width: 23.40%;
+}
+
+.THIS .left-panel.slds-size_12-of-12{
+    width: 97.85%;
+}
+
+.THIS .btn-collapse-header .slds-text-selected .slds-button__icon_left, .THIS .btn-collapse-header .slds-text-selected-focus .slds-button__icon_left, .THIS .btn-collapse-header .slds-text-not-selected .slds-button__icon_left{
+    margin-left: 14px; 
+    margin-bottom: 4px;
+    color: red;
+    width: 18px;
+    height: 18px; 
+}
+.THIS .btn-collapse .slds-text-selected .slds-button__icon_left, .THIS .btn-collapse .slds-text-selected-focus .slds-button__icon_left, .THIS .btn-collapse .slds-text-not-selected .slds-button__icon_left{
+    margin-bottom: 4px; 
+    color: red;
+    width: 18px;
+    height: 18px; 
+}
+
+.THIS .resize-div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    resize: horizontal;
+    overflow: auto;
+}
+.THIS.resizeable-container {
+    display: flex;
+
+}
+
+.THIS .resizer-x {
+    z-index: 2;
+
+}
+
+.THIS .resizer-x::before,
+.THIS .resizer-x::after {
+    content: "";
+    width: 2px;
+    height: 16px;
+}
+
+.col-resize {cursor: col-resize;}
+
+.resizebtn .slds-button__icon_left {
+    margin-right: 0px;
+}
+
+.cCustomRecordTemplate .right-panel.slds-size_3-of-12 .splitreview-scrollbar .header-overview-padd{
+    margin-top: 0px;
+}
+.THIS .resizeable-container{
+ overflow:hidden;
+}
+.THIS .resizeRight .page-block .slds-large-size_1-of-3,
+.THIS .resizeRight .page-block .slds-large-size_1-of-2,
+.THIS .resizeRight .page-block .slds-large-size_1-of-4,
+.THIS .resizeRight .grid-block .slds-large-size_3-of-12.showEntries,
+.THIS .resizeRight .grid-block .slds-large-size_9-of-12.totalRecords,
+.THIS .resizeRight .grid-block .slds-large-size_6-of-12.headertitle1,
+.THIS .resizeRight .grid-block .slds-large-size_5-of-12.flexEnd,
+.THIS .resizeRight .grid-block .slds-large-size_4-of-12.showEntries,
+.THIS .resizeRight .grid-block .slds-large-size_4-of-12.table-pager
+{
+ width:100%;
+}
+.THIS .resizeRight .grid-block .slds-large-size_4-of-12.table-pager .slds-float_right,
+.THIS .resizeRight .grid-block .slds-large-size_4-of-12.showEntries .slds-float_left,
+.THIS .resizeRight .grid-block .slds-large-size_3-of-12.showEntries .slds-float_left{
+ float:none;
+}
+.THIS .resizeLeft .page-block .slds-large-size_1-of-2,
+.THIS .resizeLeft .grid-block .slds-large-size_6-of-12.headertitle1{
+ width:50%;
+}
+.THIS .resizeLeft .grid-block .slds-large-size_9-of-12.totalRecords{
+ width:75%;
+}
+.THIS .resizeLeft .page-block .slds-large-size_1-of-3,
+.THIS .resizeLeft .grid-block .slds-large-size_4-of-12.showEntries,
+.THIS .resizeLeft .grid-block .slds-large-size_4-of-12.table-page{
+ width:33.33%;
+}
+.THIS .resizeLeft .grid-block .slds-large-size_5-of-12.flexEnd{
+ width:41.66%;
+}
+.THIS .resizeLeft .page-block .slds-large-size_1-of-4,
+.THIS .resizeLeft .grid-block .slds-large-size_3-of-12.showEntries{
+ width:25%;
+}
+.THIS .right-panel .splitreview-scrollbar .slds-page-header .slds-page-header__col-title,
+.THIS .right-panel .splitreview-scrollbar .slds-page-header .slds-large-size_3-of-7,
+.THIS .right-panel .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-3,
+.THIS .right-panel .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-2,
+.THIS .right-panel .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-4,
+.THIS .right-panel .splitreview-scrollbar .grid-block .slds-large-size_3-of-12.showEntries,
+.THIS .right-panel .splitreview-scrollbar .grid-block .slds-large-size_9-of-12.totalRecords,
+.THIS .right-panel .splitreview-scrollbar .grid-block .slds-large-size_6-of-12.headertitle1,
+.THIS .right-panel .splitreview-scrollbar .grid-block .slds-large-size_5-of-12.flexEnd{
+ width:100%;
+}
+.THIS .resizeLeft .splitreview-scrollbar .slds-page-header .slds-page-header__col-title,
+.THIS .resizeLeft .splitreview-scrollbar .slds-page-header .slds-large-size_3-of-7{
+ width:100%;
+}
+.THIS .resizeLeft .splitreview-scrollbar .grid-block .slds-large-size_3-of-12.showEntries{
+ width:100%;
+}
+.THIS .resizeRight .splitreview-scrollbar .header-overview-padd .slds-large-size_4-of-7,
+.THIS .resizeRight .splitreview-scrollbar .header-overview-padd .slds-large-size_3-of-7{
+width:50%;
+}
+.THIS .resizeLeft .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-3,
+.THIS .resizeLeft .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-2,
+.THIS .resizeLeft .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-4{
+ width:100%;
+}
+.THIS .resizeRight .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-3{
+ width:33.33%;
+}
+THIS .resizeRight .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-2{
+ width:50%;
+}
+.THIS .resizeRight .splitreview-scrollbar .layout .tab .page-block .slds-large-size_1-of-4{
+ width:25%;
+}

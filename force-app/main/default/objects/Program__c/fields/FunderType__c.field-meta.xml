@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FunderType__c</fullName>
+    <description>The field is to be removed. Based on selection of the primary funding organization funder type should get selected automatically. Hence creating a formula field PrimaryFunderType__c - Bhushan</description>
+    <label>(Obsolate)Funder Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>NGO</fullName>
+                <default>false</default>
+                <label>NGO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

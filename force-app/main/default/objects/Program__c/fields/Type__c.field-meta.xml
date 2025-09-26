@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Block Grants</fullName>
+                <default>false</default>
+                <label>Block Grants</label>
+            </value>
+            <value>
+                <fullName>Earmark Grants</fullName>
+                <default>false</default>
+                <label>Earmark Grants</label>
+            </value>
+            <value>
+                <fullName>Emergency Grants</fullName>
+                <default>false</default>
+                <label>Emergency Grants</label>
+            </value>
+            <value>
+                <fullName>Formula Grants</fullName>
+                <default>false</default>
+                <label>Formula Grants</label>
+            </value>
+            <value>
+                <fullName>Project Grants</fullName>
+                <default>false</default>
+                <label>Project Grants</label>
+            </value>
+            <value>
+                <fullName>Research Grants</fullName>
+                <default>false</default>
+                <label>Research Grants</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+community_user-user-profile-menu.comm-user-profile-menu{
+display:none;
+}
+.forceCommunityThemeHeaderStacked .themeHeaderBottomRow {
+  display:none;
+}
+.header-overview-padd{
+    margin-top: -50px !important;
+}
+.forceCommunityThemeHeaderStacked .forceCommunitySearchBox .search-container {
+    display:none;
+	}

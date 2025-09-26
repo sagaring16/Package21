@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProgramSubType__c</fullName>
+    <description>Dependent picklist for program Type</description>
+    <label>Program Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project Grants</fullName>
+                <default>true</default>
+                <label>Project Grants</label>
+            </value>
+            <value>
+                <fullName>Research Grants</fullName>
+                <default>false</default>
+                <label>Research Grants</label>
+            </value>
+            <value>
+                <fullName>Formula Grants</fullName>
+                <default>false</default>
+                <label>Formula Grants</label>
+            </value>
+            <value>
+                <fullName>Block Grant</fullName>
+                <default>false</default>
+                <label>Block Grant</label>
+            </value>
+            <value>
+                <fullName>Earmark Grant</fullName>
+                <default>false</default>
+                <label>Earmark Grant</label>
+            </value>
+            <value>
+                <fullName>Emergency Grants</fullName>
+                <default>false</default>
+                <label>Emergency Grants</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

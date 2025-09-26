@@ -1,0 +1,21 @@
+.customSendemail{
+    height: 640px!important;
+}
+.customSendemail > gnt-email-component > .slds-modal > .slds-modal__container {
+    height: 678px!important;
+    width: auto !important;
+    min-width: 31rem!important;
+    padding: var(--lwc-squareIconLargeBoundary,3rem) 0 var(--lwc-squareIconLargeBoundaryAlt,5rem) 0!important;
+     padding-top: 0px!important;
+}
+ 
+.customSendemail gnt-email-component .slds-modal__container .slds-modal__content{
+    margin-top:90px!important;
+}
+.customSendemail > gnt-email-component > .slds-backdrop.slds-backdrop_open{
+    background: transparent!important;
+}
+
+c-task-summary-l-w-c .modalSection .slds-modal__container .slds-modal__header .slds-button,c-task-summary-l-w-c .modalSection .slds-modal__container > .slds-modal__footer .modalbtn .slds-button.slds-button_neutral{
+    z-index:9999;
+    }

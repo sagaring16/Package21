@@ -1,0 +1,35 @@
+.cCustomHomeTemplate .left-panel.slds-size_2-of-12,
+.cCustomHomeTemplate .navigatorBtn,
+.cCustomHomeTemplate .left-panel-sidebar .custom-sidebar,
+.cCustomPhaseTemplate .left-panel.slds-size_2-of-12,
+.cCustomPhaseTemplate .navigatorBtn,
+.cCustomPhaseTemplate .left-panel-sidebar .custom-sidebar,
+.cCustomLayoutPhaseView .left-panel.slds-size_2-of-12,
+.cCustomLayoutPhaseView .navigatorBtn,
+.cCustomLayoutPhaseView .left-panel-sidebar .custom-sidebar
+{ 
+position: sticky; 
+top: 104px; 
+height: calc(100vh - 160px); 
+}  
+
+.cCustomLayoutHomeCommunity .left-panel.slds-size_2-of-12,
+.cCustomLayoutHomeCommunity .navigatorBtn,
+.cCustomLayoutHomeCommunity .left-panel-sidebar .custom-sidebar,
+.cCustomLayoutPhaseViewCommunity .left-panel.slds-size_2-of-12,
+.cCustomLayoutPhaseViewCommunity .navigatorBtn,
+.cCustomLayoutPhaseViewCommunity .left-panel-sidebar .custom-sidebar
+{ 
+position: sticky; 
+top: 96px; 
+height: calc(100vh - 108px); 
+}  
+
+.cCustomRecordTemplateCommunity .left-panel.slds-size_2-of-12,
+.cCustomRecordTemplateCommunity .navigatorBtn,
+.cCustomRecordTemplateCommunity .left-panel-sidebar .custom-sidebar
+{ 
+position: sticky; 
+top: 84px; 
+height: calc(100vh - 97px); 
+}  

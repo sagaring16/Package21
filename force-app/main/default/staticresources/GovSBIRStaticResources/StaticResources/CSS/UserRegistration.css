@@ -1,0 +1,88 @@
+/*user registration UI support */
+ .flowruntimeBody.flowruntimeBody__lwc.slds-card__body {
+  background-color: #aec2dd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.modalContent .flowruntimeBody.flowruntimeBody__lwc.slds-card__body {
+  background-color: #fff;
+}
+
+.layout-padding c-internal-login-footer .footer {
+  position: fixed;
+}
+
+.layout-padding .custommsg .pmsg{
+margin-bottom:0px;
+} 
+
+.layout-padding .slds-page-header {
+  border-radius: 0.25rem;
+margin-bottom: 10px !important;
+}
+
+iframe.cRecaptchaV2{
+  margin-top:60px;
+  /* margin-left: -8px; */
+}
+flowruntime-lwc-field .container.slds-m-bottom_x-small{
+    padding: 10px;
+    /* color: #008000;
+    background-color: #dff0d8;
+    border-color: #008000; */
+    margin-bottom: 0px;
+    border-radius:0.25rem;
+
+}
+
+flowruntime-lwc-field .container c-internal-login-footer .footer{
+  position:fixed;
+}
+
+flowruntime-navigation-bar .footerContainer .flow-button__BACK .slds-button{
+  --slds-c-button-color-background: var(--slds-c-button-brand-color-background, var(--sds-c-button-brand-color-background, var(--lwc-brandAccessible,rgb(0, 95, 178))));
+     --slds-c-button-color-border: var(--slds-c-button-brand-color-border, var(--sds-c-button-brand-color-border, var(--lwc-brandAccessible,rgb(0, 95, 178))));
+     --slds-c-button-text-color: var(--slds-c-button-brand-text-color, var(--sds-c-button-brand-text-color, var(--slds-g-color-neutral-base-100, var(--lwc-colorTextBrandPrimary,rgb(255, 255, 255)))));
+ }
+ 
+ flowruntime-navigation-bar .footerContainer .flow-button__BACK .slds-button:hover, flowruntime-navigation-bar .footerContainer .flow-button__BACK .slds-button:focus{
+   --slds-c-button-color-background-hover: var(--slds-c-button-brand-color-background-hover, var(--sds-c-button-brand-color-background-hover, var(--lwc-brandAccessibleActive,#00447f)));
+     --slds-c-button-color-border-hover: var(--slds-c-button-brand-color-border-hover, var(--sds-c-button-brand-color-border-hover, var(--lwc-brandAccessibleActive,#00447f)));
+     --slds-c-button-text-color-hover: var(--slds-c-button-brand-text-color-hover, var(--sds-c-button-brand-text-color-hover, var(--slds-g-link-text-color-hover, var(--lwc-colorTextBrandPrimary,rgb(255, 255, 255)))));
+ }
+
+.slds-listbox_vertical .slds-listbox__option:focus,
+.slds-listbox_vertical .slds-listbox__option:hover,
+.slds-listbox_vertical .slds-listbox__option.slds-has-focus,
+.slds-listbox--vertical .slds-listbox__option:focus,
+.slds-listbox--vertical .slds-listbox__option:hover,
+.slds-listbox--vertical .slds-listbox__option.slds-has-focus {
+  background-color: #1e90ff !important;
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.slds-listbox_vertical .slds-listbox__option_plain,
+.slds-listbox_vertical .slds-listbox__option--plain,
+.slds-listbox--vertical .slds-listbox__option_plain,
+.slds-listbox--vertical .slds-listbox__option--plain {
+  padding: 0px 0px 0px 5px !important;
+  color: #333;
+}
+
+
+.slds-button_brand,
+.slds-button--brand,
+.slds-button_neutral {
+    min-height: 22px !important;
+    padding: 0 8px !important;
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+}
+
+.footer {
+	background-color: #00234a !important;
+   opacity:1 !important;
+
+}

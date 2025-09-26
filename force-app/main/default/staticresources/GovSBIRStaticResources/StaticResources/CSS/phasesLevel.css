@@ -1,0 +1,212 @@
+app_flexipage-header{
+    display:none !important;
+    margin-bottom: 0px;
+}
+
+.oneUtilityBarContent .utilitybar .slds-utility-bar__item div[data-component-id="GNT_sideBarLwc"]{
+	display:none;
+}
+ 
+.header{ 
+    border-top-left-radius:0.25rem; 
+    border-top-right-radius:0.25rem; 
+}
+c-review-form-field .slds-border_bottom .slds-m-right_x-small .slds-p-horizontal_small.slds-p-vertical_x-small.slds-grid.slds-wrap .slds-slot 
+.slds-size_12-of-12 .dateTime.slds-form-element lightning-datepicker .slds-dropdown-trigger  .slds-form-element__label {
+    display: block  !important ; 
+}
+
+.toastMessage.forceActionsText{
+    white-space : pre-line !important;
+}
+
+.slds-form-element__label{
+    font-size: var(--lwc-fontSize2,0.75rem)!important;
+    line-height: var(--lwc-lineHeightHeading,1.25)!important;;
+    color: var(--slds-g-color-neutral-base-30, var(--lwc-colorTextWeak,rgb(68, 68, 68)))!important;;
+    font-weight: 400!important;
+}
+
+.slds-form-element__static {
+    color: #000!important;
+    overflow-wrap: break-word!important;
+    word-wrap: break-word!important;
+    word-break: break-word!important;
+    display: inline-block!important;
+    font-size: var(--lwc-inputStaticFontSize,0.875rem)!important;
+    font-weight: var(--lwc-inputStaticFontWeight,400)!important;
+    width: 100%!important;
+}
+
+.slds-tabs_default__nav .slds-tabs_default__item .slds-tabs_default__link {
+    font-size: 15px !important;
+    color: #000!important;
+    font-weight: 400!important;
+}
+
+.slds-tabs_default__nav .slds-tabs_default__item .slds-is-active .slds-tabs_default__link {
+    font-weight: 400!important;
+    
+        text-decoration: none !important;
+   
+}
+.combobox1 .slds-form-element__label{
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+/* Below css is for home banner components lighting help text */
+.slds-popover {
+
+    background-color: #f3f2f2;
+    display: inline-block;
+    /* box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16); */
+    border: 1px solid #000 !important;
+}
+
+.slds-popover--tooltip .slds-popover__body,
+.slds-popover_tooltip .slds-popover__body {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333;
+}
+
+.slds-nubbin--bottom-left:before,
+.slds-nubbin_bottom-left-corner:before,
+.slds-nubbin_bottom-left:before {
+
+   border-bottom:1px solid #000;
+   border-right:1px solid #000;
+}
+
+.pageSectionTitle .pointer{
+    margin-left:0px !important;
+ }
+.pageSectionTitle {
+     /* padding-left: 13px; */
+border-top-left-radius:0.25rem; 
+    border-top-right-radius:0.25rem; 
+}
+
+.dt-outer-container .slds-table_header-fixed_container .slds-scrollable_y .slds-table tbody tr td,.dt-outer-container .slds-table_header-fixed_container .slds-scrollable_y .slds-table tbody tr th{
+   border-top: 0.5px solid #c9c9c9;
+}
+
+.slds-path__link .slds-path__stage lightning-primitive-icon .slds-icon {
+fill:#fff !important;
+}
+
+.row-main .slds-large-size_8-of-12.region-main{
+  width:67%!important;
+}
+
+.row-main .slds-large-size_4-of-12.region-sidebar-right{
+  width:33% !important;
+}
+.lightningtab-btm-padding .slds-tabs_default lightning-tab.slds-tabs_default__content{
+    padding-bottom:0px !important;
+ }
+
+ c-flex-gridlwc c-lwc-flex-table .slds-box{
+	padding:0px;
+    margin-left:15px;
+    margin-right:15px;
+	margin-bottom:10px;
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 10%);
+    border: 1px solid rgb(221, 219, 218);
+}
+
+c-flex-gridlwc c-lwc-flex-table .slds-box div .slds-table--header-fixed_container[data-id="cnt-Div"]{
+	margin-left:15px;
+	 margin-right:15px;
+}
+
+ c-flex-gridlwc c-lwc-flex-table .slds-box .filter{
+	margin-left:15px;
+	 margin-right:15px;
+}
+
+c-flex-gridlwc c-lwc-flex-table .slds-box .slds-grid .showEntries{
+	padding-left:15px;
+	
+}
+c-flex-gridlwc c-lwc-flex-table .slds-box .slds-grid .totalRecords{
+	padding-right:15px;
+	
+}
+.homecss .slds-card{
+    margin-right: 10px;
+    width: auto;
+}
+
+/* css for top banner card */
+.parent-card .slds-card__header .slds-text-heading_small{
+    color:#fff !important;
+	padding-left:8px;
+}
+.child-card .slds-card__header .slds-text-heading_small{
+    color:#000 !important;
+	padding-left:0px;
+	    max-width: 210px;
+}
+.child-card .slds-card__header{
+	margin-bottom:0px;
+}
+/*homeTopBannerCard component 
+.smallCard .slds-card__header {
+	padding-top:0px;
+}
+.lightningIconUA .slds-icon, .lightningIconCA .slds-icon, .lightningIconPI .slds-icon, .lightningIconQL .slds-icon {
+	height:26px
+}
+.smallCard .slds-card__body{
+margin-bottom:0px;
+}
+
+.smallCard .slds-card__header {
+	padding-top:0px;
+}
+.smallCard .slds-card__body{
+margin-bottom:0px;
+margin-top:0px;
+}*/
+
+.smallCard .slds-card__header {
+	margin:0px;
+	padding-top: 0px;
+}
+.smallCard .slds-card__body{margin-bottom:0px;margin-top:0px;padding-top: 5px;padding-bottom: 5px;}
+.lightningIconUA .slds-icon, .lightningIconCA .slds-icon, .lightningIconPI .slds-icon, .lightningIconQL .slds-icon {
+	height:26px
+}
+.highlight-title .slds-card__header{
+	display:none
+}
+.inner-card .slds-card .slds-card__header header .slds-card__header-title{
+ display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/*Sub Recipient UI */
+.cCustomRecordTemplateCommunity .header-field-label{
+padding-top:0px;
+}
+
+.dashboard1 gnt-flex-gridlwc .slds-box{
+margin-left:0px;
+margin-right:0px;
+}
+
+.dashboard1 .forceCommunityTabLayout{
+	border-radius:0.25rem;
+}
+.dashboard1 .forceCommunityTabLayout .reportFooter .refreshContainer{
+	padding:10px;
+}
+ .inner-card .slds-card__body{
+margin-top:0px;
+}

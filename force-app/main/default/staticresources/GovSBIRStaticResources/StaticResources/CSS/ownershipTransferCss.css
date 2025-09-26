@@ -1,0 +1,79 @@
+.slds-form-element__icon{
+    padding-top:0px;
+    }
+    
+    .slds-listbox_vertical .slds-listbox__option_plain, .slds-listbox_vertical .slds-listbox__option--plain, .slds-listbox--vertical .slds-listbox__option_plain, .slds-listbox--vertical .slds-listbox__option--plain {
+    padding: 0px 0px 0px 0px !important;
+    color:#333 ;
+    }
+    
+    .slds-listbox_vertical .slds-listbox__option:focus, .slds-listbox_vertical .slds-listbox__option:hover, 
+    .slds-listbox_vertical .slds-listbox__option.slds-has-focus, .slds-listbox--vertical .slds-listbox__option:focus, 
+    .slds-listbox--vertical .slds-listbox__option:hover, 
+    .slds-listbox--vertical .slds-listbox__option.slds-has-focus
+    {
+    background-color:#1e90ff !important; 
+    text-decoration:none;
+    color:#ffffff;
+    }
+    
+    .toggleIcon .slds-icon {
+        width: 14px !important;
+        height: 14px !important;
+        fill: #00396B !important;
+    }
+    .flexipageHeader{
+        display:none;
+    }
+
+    .lwcAppFlexipage{
+        margin-top:-12px;
+        }
+
+   .tickIcon .slds-icon {
+    width: 18px !important;
+    height: 18px !important;
+    fill: #00CC66 !important;
+}
+.slds-popover {
+    
+    background-color: #f3f2f2;
+    display: inline-block;
+    /* box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16); */
+    border: 1px solid #000 !important;
+}
+
+.slds-popover--tooltip .slds-popover__body,
+.slds-popover_tooltip .slds-popover__body {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333;
+}
+
+.slds-nubbin--bottom-left:before,
+.slds-nubbin_bottom-left-corner:before,
+.slds-nubbin_bottom-left:before {
+   
+   border-bottom:1px solid #000;
+   border-right:1px solid #000;
+}
+.dropdownalign{
+  
+    color:#333 ;
+}
+.slds-card__header{
+    padding:0px;
+}
+.buttonalign .slds-button{
+margin-top:27px;
+}
+.slds-button_brand, .slds-button--brand, .slds-button_neutral{
+    min-height: 22px !important;
+    padding: 0 8px !important;
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+}
+.childtable .slds-card .slds-card__body lightning-tabset .slds-tabs_default .slds-tabs_default__content{
+    margin-left: 15px;
+    margin-right: 15px;
+    }

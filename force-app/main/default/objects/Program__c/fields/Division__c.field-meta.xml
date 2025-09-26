@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <description>Created and used for GOVSBIR</description>
+    <label>Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aeronautics Research Mission Directorate</fullName>
+                <default>false</default>
+                <label>Aeronautics Research Mission Directorate</label>
+            </value>
+            <value>
+                <fullName>Exploration Systems Development Mission Directorate</fullName>
+                <default>false</default>
+                <label>Exploration Systems Development Mission Directorate</label>
+            </value>
+            <value>
+                <fullName>Science Mission Directorate</fullName>
+                <default>false</default>
+                <label>Science Mission Directorate</label>
+            </value>
+            <value>
+                <fullName>Space Technology Mission Directorate</fullName>
+                <default>false</default>
+                <label>Space Technology Mission Directorate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

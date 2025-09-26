@@ -1,0 +1,329 @@
+ .slds-col_padded,
+.slds-col--padded {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+  .leftPannel {
+  background-color: rgb(15, 129, 174);
+}
+
+.leftpanel {
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.rightPannel {
+  margin-top: 100px;
+  margin-right: 15%;
+  background: #ffffffc7 !important;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 75%), 0 6px 20px 0 rgb(0 0 0 / 75%);
+  border-radius: 0.25rem;
+}
+
+.loginWindow {
+  margin: 40px 40px 10px 50px;
+  border-width: 1px;
+}
+
+.hrLine {
+  height: 2px;
+  background-color: black;
+}
+
+.headings {
+  font-size: large;
+}
+
+.logo {
+  height: 100%;
+}
+
+ .headerStyles {
+  background-color: white;
+  height: 65px;
+  /* top: 0; */
+  left: 0;
+  position: fixed;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  z-index: 3;
+}  
+
+.external-footer .footer {
+  position: fixed !important;
+}
+
+.pagebg {
+  background-image: url(/govgrants/resource/1709735208000/LightningRecipientsPortalBg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
+
+.inputfield {
+  position: relative;
+}
+
+.btnIconOverlay .slds-icon {
+  width: 18px;
+  height: 18px;
+  fill: #06599d;
+  margin-top: 2px;
+}
+
+.btnIconOverlay {
+  position: absolute;
+  z-index: 1;
+  float: left;
+  border-radius: none;
+}
+
+.slds-modal__content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  font-size: medium;
+  border: 1px solid #fff;
+}
+
+.btn .slds-button {
+  height: 32px;
+  position: relative;
+}
+
+.btn-padding .slds-button_brand,
+.btn-padding1 .slds-button_brand {
+  width: 120px !important;
+  height: 35px !important;
+}
+
+.opportunityTable .slds-box.grid-block {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.opportunityTable .tickIcon .slds-icon {
+  fill: #fff !important;
+  width: 26px;
+}
+
+.opportunityTable .slds-grid.slds-p-top_x-small {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.showEntries .slds-input {
+  padding-left: 5px !important;
+}
+
+.innerFilter .slds-input {
+  padding-left: 10px !important;
+}
+
+
+.returnbtn .slds-button_brand {
+  width: auto !important;
+  height: 32px !important;
+
+}
+
+.resetbtn .slds-button_brand {
+  width: 350px !important;
+  height: 32px !important;
+  margin-top: 10px;
+}
+
+.input-box {
+  display: flex;
+}
+
+.input-box .slds-input {
+  width: 350px;
+  padding: 0 1rem 0 2rem !important;
+}
+
+.input-box .slds-form-element__label {
+  display: none;
+}
+
+.forgetbtn .slds-button:active {
+  border-color: #dbdfe2;
+}
+
+.forgetbtn .slds-button:hover {
+  box-shadow: none;
+}
+
+
+.slds-modal__close .slds-button .slds-button__icon {
+  color: #00396b !important;
+  height: 16px;
+}
+
+.modal-header .slds-modal__header {
+  padding: 10px !important;
+  background: rgb(243, 242, 242) !important;
+}
+
+.modal-header .slds-modal__header .slds-modal__title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.modal-footer .slds-modal__footer {
+  padding: 5px !important;
+  background: rgb(243, 242, 242) !important;
+  border-top-width: 1px;
+}
+
+.slds-modal[aria-description="Register As Organization"] .slds-modal__container .slds-modal__close {
+  top: 5%;
+  right: 5px;
+  z-index: 1;
+}
+
+.slds-modal[aria-description="Register As Individual"] .slds-modal__container .slds-modal__close {
+  top: 7%;
+  right: 5px;
+  z-index: 1;
+
+}
+
+.slds-modal[aria-description="Forget Password"] .slds-modal__container .slds-modal__close {
+  top: 7%;
+  right: 5px;
+  z-index: 1;
+}
+
+.successMsgs .slds-icon {
+  margin-bottom: 8px;
+} 
+
+.externalfooter .footer{
+position:absolute !important;
+
+}
+
+/*user registration UI support 
+ .flowruntimeBody.flowruntimeBody__lwc.slds-card__body {
+  background-color: #aec2dd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.modalContent .flowruntimeBody.flowruntimeBody__lwc.slds-card__body {
+  background-color: #fff;
+}
+
+.layout-padding c-internal-login-footer .footer {
+  position: fixed;
+}
+
+.layout-padding .custommsg .pmsg{
+margin-bottom:0px;
+} 
+
+.layout-padding .slds-page-header {
+  border-radius: 0.25rem;
+margin-bottom: 10px !important;
+}
+*/
+@media screen and (max-width: 1250px) and (min-width: 980px) {
+
+  .btn-padding .slds-button_brand,
+  .btn-padding1 .slds-button_brand {
+    width: 90px !important;
+    height: 35px !important;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 680px) {
+
+  .btn-padding .slds-button_brand,
+  .btn-padding1 .slds-button_brand {
+    width: 100% !important;
+    height: 35px !important;
+  }
+
+  .btn-padding {
+    display: block !important;
+  }
+
+  .btn-padding :first-child {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 830px) {
+  .btn-padding {
+    display: block !important;
+  }
+
+  .btn-padding .slds-button_brand,
+  .btn-padding1 .slds-button_brand {
+    width: 100% !important;
+    height: 35px !important;
+  }
+
+  .slds-box.grid-block {
+    margin-bottom: 5% !important;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .btn-padding {
+    display: flex !important;
+  }
+
+  .btn-padding .slds-button_brand,
+  .btn-padding1 .slds-button_brand {
+    width: 180px !important;
+    height: 35px !important;
+  }
+
+  .slds-box.grid-block {
+    margin-bottom: 12% !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .slds-box.grid-block {
+    margin-bottom: 12% !important;
+  }
+
+  .btn-padding .slds-button_brand,
+  .btn-padding1 .slds-button_brand {
+    width: 120px !important;
+    height: 35px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slds-box.grid-block {
+    margin-bottom: 12% !important;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .slds-box.grid-block {
+    margin-bottom: 30% !important;
+  }
+
+  .btn-padding .slds-button_brand,
+  .btn-padding1 .slds-button_brand {
+    width: 100px !important;
+    height: 35px !important;
+  }
+}   

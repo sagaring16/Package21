@@ -1,0 +1,11 @@
+<aura:component implements="force:hasSObjectName,lightning:actionOverride" access="GLOBAL">
+    
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <!-- Simple loading message -->
+    <div class="slds-text-align_center slds-p-vertical_large">
+        <lightning:spinner alternative-text="Redirecting..." size="medium"></lightning:spinner>
+    </div>
+    
+</aura:component>

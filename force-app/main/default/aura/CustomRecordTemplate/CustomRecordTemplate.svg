@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" >
+  <!-- Left Sidebar -->
+  <rect x="0" y="0" width="800" height="80" fill="#54698D" />
+  <text x="320" y="50" font-weight="bold" font-size="25" fill="#FFFFFF">Header Overview</text>
+
+  <!-- Table Section -->
+  <rect x="0" y="90" width="640" height="350" fill="#54698D" />
+  <text x="300" y="180" font-weight="bold" font-size="25" fill="#FFFFFF">Layout</text>
+
+  <!-- Section 1 -->
+  <rect x="650" y="90" width="150" height="350" fill="#54698D" />
+  <text x="685" y="180" font-weight="bold" font-size="25" fill="#FFFFFF">Related</text>
+  <text x="655" y="210" font-weight="bold" font-size="25" fill="#FFFFFF">Components</text>
+  
+  <!-- Sidebar Collapse Button (Visual Representation) -->
+  <rect x="635" y="90" width="15" height="50" fill="#000000" cursor="pointer" />
+  <text x="638" y="120" font-size="16" fill="#FF0000" cursor="pointer">&#9654;</text>
+</svg>

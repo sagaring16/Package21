@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CostSharing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether cost sharing is required or not. If CostSharing is required, then the Federal to Non-Federal ratio must match the ratio specified in the Cost Sharing Ratio column. If CostSharing is required and the cost sharing ratio is not specified then the Non-Federal share should be greater than 0. Additionally the Total Budget concept is applicable, which means that the IDC on the NGA will be reported as Other in the DC. This rule is enforced in the applications as well as award module.</description>
+    <label>X_Cost Sharing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

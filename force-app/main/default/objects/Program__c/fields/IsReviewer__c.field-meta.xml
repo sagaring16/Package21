@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsReviewer__c</fullName>
+    <description>Used for hide logic on UI</description>
+    <formula>CONTAINS(ReviewerIds__c,$User.Id)</formula>
+    <label>B_Is Reviewer</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

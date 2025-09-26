@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideDeleteBtn__c</fullName>
+    <formula>(ISPICKVAL(Status__c,&apos;Active&apos;)||ISPICKVAL(Status__c,&apos;Disapproved&apos;)) || $Profile.Name == &apos;CTR&apos;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>X_Hide Delete Btn</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

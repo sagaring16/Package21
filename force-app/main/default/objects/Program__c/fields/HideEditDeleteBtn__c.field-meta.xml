@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideEditDeleteBtn__c</fullName>
+    <description>AND((TEXT(Status__c) != &apos;Created&apos;), (TEXT(Status__c) != &apos;Being Amended&apos;))</description>
+    <formula>NOT(
+AND(
+OR(
+TEXT(Status__c) = &apos;Created&apos;,TEXT(Status__c) = &apos;Being Amended&apos;), 
+$User.Id = OwnerId)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>X_Hide Edit Delete Btn</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

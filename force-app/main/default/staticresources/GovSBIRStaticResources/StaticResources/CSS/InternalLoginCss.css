@@ -1,0 +1,49 @@
+/* code  */
+ .inputfield .slds-input {
+    padding: 0 1rem 0 2rem !important;
+	}
+
+.btnIconOverlay .slds-icon
+{
+width:18px;
+height:18px;
+fill: #06599d;
+}
+
+.internalloginhighlight .slds-icon
+{
+width:18px;
+height:18px;
+fill: #06599d;
+}
+.highlightIcon .slds-icon
+{
+width:24px;
+height:18px;
+fill: #06599d;
+}
+
+.siteforceCptBody .siteforceContentArea.siteforceSldsOneColLayout>div.slds-col--padded.contentRegion 
+{
+    padding-right:0px !important;
+    padding-left: 0px !important;
+}
+
+.siteforceCptBody .cCenterPanel{
+    margin:0px !important;
+}
+
+.siteforceCptBody{
+    border:0px !important;
+} 
+
+.slds-input-has-icon .slds-input__icon{
+    top: 40% !important;
+    margin-left: -2px;
+}  
+
+.highlightIcon .slds-icon {
+    width: 40px ;
+    height: 25px ;
+    fill: #ffffff ;
+  }

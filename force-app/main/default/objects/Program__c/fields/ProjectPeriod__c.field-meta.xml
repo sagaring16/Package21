@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectPeriod__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(NOT(ISBLANK(EndDate__c)),NOT(ISBLANK(StartDate__c))), TEXT(MONTH(StartDate__c))+&quot;/&quot; +TEXT(DAY(StartDate__c))+&quot;/&quot; +TEXT(YEAR(StartDate__c)) &amp; &quot; To &quot; &amp; TEXT(MONTH(EndDate__c))+&quot;/&quot; +TEXT(DAY(EndDate__c))+&quot;/&quot; +TEXT(YEAR(EndDate__c)), &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>X_Project Period</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
