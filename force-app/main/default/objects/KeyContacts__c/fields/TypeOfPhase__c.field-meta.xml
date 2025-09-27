@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypeOfPhase__c</fullName>
+    <description>This field indicates to which phase the key contact belongs to</description>
+    <label>Type Of Phase</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Funding Opportunity</fullName>
+                <default>false</default>
+                <label>Funding Opportunity</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Awards</fullName>
+                <default>false</default>
+                <label>Awards</label>
+            </value>
+            <value>
+                <fullName>PreApplication</fullName>
+                <default>false</default>
+                <label>PreApplication</label>
+            </value>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>Program</fullName>
+                <default>false</default>
+                <label>Program</label>
+            </value>
+            <value>
+                <fullName>ProgressReport</fullName>
+                <default>false</default>
+                <label>ProgressReport</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

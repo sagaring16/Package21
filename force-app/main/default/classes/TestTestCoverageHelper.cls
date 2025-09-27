@@ -1,10 +1,7 @@
-public with sharing class TestCoverageHelper {
+@isTest
+public class TestTestCoverageHelper {
     @IsTest
-    private class TestCoverageHelper {
-        @IsTest
-        static void testDoNothing() {
-            CoverageHelper.doNothing();
-        }
+    static void testDoNothing() {
+        CoverageHelper.doNothing();
     }
-
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InternalUniqueID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Uniquely identifies each record for data migration purpose only. It is auto populated by trigger in before insert context</description>
+    <externalId>true</externalId>
+    <label>Internal Unique ID</label>
+    <length>32</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

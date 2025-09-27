@@ -1,13 +1,13 @@
 {
   "packageDirectories": [
     {
-      "versionName": "ver 0.3",
-      "versionNumber": "0.3.0.NEXT",
+      "versionName": "ver 0.4",
+      "versionNumber": "0.4.0.NEXT",
       "path": "force-app",
       "default": true,
       "package": "Package21",
       "versionDescription": "",
-      "ancestorId": "04tdL000000CpRlQAK",
+      "ancestorId": "04tdL000000Cqm1QAC",
       "dependencies": [
         {
           "subscriberPackageVersionId": "04tHq000001Yw82IAC"

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grantor</fullName>
+    <active>true</active>
+    <description>This will be used for Grantor Key Contacts</description>
+    <label>Grantor</label>
+    <picklistValues>
+        <picklist>ProjectRole__c</picklist>
+        <values>
+            <fullName>Authorized Signatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ebiz POC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiscal Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grants Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principal Investigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Director%2FManager</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Field Representative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grants Management Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grants Management Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Director%2FPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Officer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TypeOfPhase__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PreApplication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProgressReport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Visit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

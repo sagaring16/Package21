@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>Created and used for GOVSBIR</description>
+    <label>Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Step 1</fullName>
+                <default>false</default>
+                <label>Step 1</label>
+            </value>
+            <value>
+                <fullName>Step 2</fullName>
+                <default>false</default>
+                <label>Step 2</label>
+            </value>
+            <value>
+                <fullName>Step 3</fullName>
+                <default>false</default>
+                <label>Step 3</label>
+            </value>
+            <value>
+                <fullName>Step 4</fullName>
+                <default>false</default>
+                <label>Step 4</label>
+            </value>
+            <value>
+                <fullName>Grant Staff</fullName>
+                <default>false</default>
+                <label>Grant Staff</label>
+            </value>
+            <value>
+                <fullName>Program Approver</fullName>
+                <default>false</default>
+                <label>Program Approver</label>
+            </value>
+            <value>
+                <fullName>Program Reviewer</fullName>
+                <default>false</default>
+                <label>Program Reviewer</label>
+            </value>
+            <value>
+                <fullName>Fiscal Approver</fullName>
+                <default>false</default>
+                <label>Fiscal Approver</label>
+            </value>
+            <value>
+                <fullName>Fiscal Reviewer</fullName>
+                <default>false</default>
+                <label>Fiscal Reviewer</label>
+            </value>
+            <value>
+                <fullName>Legal Approver</fullName>
+                <default>false</default>
+                <label>Legal Approver</label>
+            </value>
+            <value>
+                <fullName>Executive Approver</fullName>
+                <default>false</default>
+                <label>Executive Approver</label>
+            </value>
+            <value>
+                <fullName>Grants Administrator</fullName>
+                <default>false</default>
+                <label>Grants Administrator</label>
+            </value>
+            <value>
+                <fullName>Key POC</fullName>
+                <default>false</default>
+                <label>Key POC</label>
+            </value>
+            <value>
+                <fullName>SME Reviewer</fullName>
+                <default>false</default>
+                <label>SME Reviewer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

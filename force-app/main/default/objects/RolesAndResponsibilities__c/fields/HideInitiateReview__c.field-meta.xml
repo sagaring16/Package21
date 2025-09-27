@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideInitiateReview__c</fullName>
+    <formula>OR(
+  ISBLANK(Name__c),
+  ISPICKVAL(Announcement__r.Status__c, &apos;Published&apos;),
+  IF( 
+    OR( 
+      ISPICKVAL(BusinessRole__c, &apos;Program Reviewer&apos;), 
+      ISPICKVAL(BusinessRole__c, &apos;Fiscal Reviewer&apos;),
+      ISPICKVAL(BusinessRole__c, &apos;Executive Reviewer&apos;)
+    ),
+    OR(ISPICKVAL(Status__c, &apos;Sent for Review&apos;), ISPICKVAL(Status__c, &apos;Review Complete&apos;)), 
+    True
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Hide Initiate Review(Obsolete)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
