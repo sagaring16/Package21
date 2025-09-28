@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisplaySubmitForApprovalButton__c</fullName>
+    <formula>NOT(AND(OR(TEXT( Status__c) = &apos;In Progress&apos; , TEXT( Status__c) = &apos;Change Requested&apos; ) , $Profile.Name = &apos;System Administrator&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Controls the display of the Submit for Approval Button. If the Organization Status is &apos;In Progress&apos; or &apos;Change Requested&apos; and User Type is &apos;Standard&apos; display the Submit for Approval Button</inlineHelpText>
+    <label>X_Display Submit For Approval Button</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

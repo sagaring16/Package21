@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReviewerStatus__c</fullName>
+    <description>Status field for all types of contacts. Discussed with Shiva and have not created a new status field re using reviewerStatus__c as status.</description>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invitation Sent</fullName>
+                <default>false</default>
+                <label>Invitation Sent</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Invitation Expired</fullName>
+                <default>false</default>
+                <label>Invitation Expired</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

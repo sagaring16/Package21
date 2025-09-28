@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PendingParentalApproval__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When set to true, this organization has requested approval to be linked to a parent organization</description>
+    <label>X_Pending Parental Approval</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

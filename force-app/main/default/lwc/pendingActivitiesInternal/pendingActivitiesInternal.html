@@ -1,0 +1,34 @@
+<template>
+    <div class="slds-grid slds-wrap slds__card-wrapper slds__section-wrapper slds-x-top--small">
+        <div class="pending-items-wrapper">
+            <article class="slds-card slds-p-around_x-small">
+                <div class="slds-card__header slds-grid slds-m-bottom_medium">
+                    <header>
+                        <div>
+                            <h2 class="slds-card__header-title">
+                                <span tabindex="0">{title}</span>
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-grid_column slds__pending-items">
+                     <template for:each={carddata} for:item="records">
+                        <div key={records.title} title={records.json.textOnHover} class="card-color slds-p-top_small clickable-div activity-card slds-p-around_x-small slds-active-programs pend-act-mob" 
+                             onclick={fetchChart} data-key={records.report} data-id={records.json.url} data-tablename={records.tablename}>
+                                <lightning-icon icon-name={records.json.icon}
+                                    class="icon-bgcolor slds-icon-action-add-file white-utility-icon" tabindex="0" alternative-text={records.title}
+                                    size="Small">
+                                </lightning-icon>
+                                <div class="count-section">
+                                    <p class="count-current" tabindex="0">
+                                        <template if:true={records.json.isAmount}>$</template>{records.count}
+                                    </p>
+                                    <p class="title-current" tabindex="0">{records.title}</p>
+                                </div>
+                        </div>
+                    </template>
+                </div>
+            </article>
+        </div>
+    </div>
+</template>

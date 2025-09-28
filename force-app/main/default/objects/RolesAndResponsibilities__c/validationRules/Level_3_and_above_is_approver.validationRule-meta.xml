@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Level_3_and_above_is_approver</fullName>
-    <active>true</active>
-    <description>User with Level 3 and above can only be chosen as Approver</description>
-    <errorConditionFormula>If(AND( Name__c !=null,  OR( ISPICKVAL( BusinessRole__c ,&apos;Program Approver&apos;) , ISPICKVAL( BusinessRole__c ,&apos;Fiscal Approver&apos;) ) , VALUE( Text(Name__r.Level__c ))&lt; VALUE(  $Setup.GNT__GlobalConfig__c.MinimumApprovalLevel__c ) ),true,false)</errorConditionFormula>
-    <errorMessage>Assigned users for the approval role do not have organizational approval authority (level). Please pick a different user or contact your administrator.</errorMessage>
-</ValidationRule>

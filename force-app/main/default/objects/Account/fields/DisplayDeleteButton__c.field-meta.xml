@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisplayDeleteButton__c</fullName>
+    <formula>NOT($Profile.Name = &apos;System Administrator&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>B_Display Delete Button</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

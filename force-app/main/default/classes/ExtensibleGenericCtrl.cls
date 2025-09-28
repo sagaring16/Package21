@@ -23,7 +23,7 @@ global virtual with sharing class ExtensibleGenericCtrl extends GNT.GenericCtrl 
         recordId = lightningObject.currentRecordId;
         if (String.isNotBlank(lightningObject.currentPageUrl)) {
             //Accessing the url parameters
-            paramValueMap = getUrlParamLWC(lightningObject.currentPageUrl);
+            paramValueMap = AppUtils.getUrlParamLWC(lightningObject.currentPageUrl);
 
             if (recordId == null) {
                 recordId = paramValueMap.get('id');
@@ -130,28 +130,28 @@ global virtual with sharing class ExtensibleGenericCtrl extends GNT.GenericCtrl 
         lightningObject.messageList.add(new GNT.LightningPageMessage(ApexPages.Severity.ERROR, e.getLineNumber() + ': ' + e.getMessage()));
         GNT.ErrorMessageHelper.AddMessage('GenericStaticUtility.SOMETHING_WENT_WRONG_ERROR_MESSAGE');
     }
-    private Map<String, String> getUrlParamLWC(String urlVar) {
-        Map<String, Object> jsonMap = (Map<String, Object>) JSON.deserializeUntyped(urlVar);
-        Map<String, Object> attributesMap = new Map<String, Object>();
-        Map<String, Object> statemap = new Map<String, Object>();
-        Map<String, String> paramValueMap = new Map<String, String>();
-        String attributes = 'attributes';
-        string state = 'state';
+    // private Map<String, String> getUrlParamLWC(String urlVar) {
+    //     Map<String, Object> jsonMap = (Map<String, Object>) JSON.deserializeUntyped(urlVar);
+    //     Map<String, Object> attributesMap = new Map<String, Object>();
+    //     Map<String, Object> statemap = new Map<String, Object>();
+    //     Map<String, String> paramValueMap = new Map<String, String>();
+    //     String attributes = 'attributes';
+    //     string state = 'state';
 
-        if(jsonMap.containsKey(attributes)){
-            attributesMap = (Map<String, Object>) jsonMap.get(attributes);               
-        }
-        for(String key : attributesMap.keySet()) {
-            paramValueMap.put(key, (String) attributesMap.get(key));
-        }
-        if(jsonMap.containsKey(state)){
-            statemap = (Map<String, Object>) jsonMap.get(state);               
-        }
-        for(String key : statemap.keySet()) {
-            paramValueMap.put(key, (String) statemap.get(key));
-        }
-        return paramValueMap;
-    }
+    //     if(jsonMap.containsKey(attributes)){
+    //         attributesMap = (Map<String, Object>) jsonMap.get(attributes);               
+    //     }
+    //     for(String key : attributesMap.keySet()) {
+    //         paramValueMap.put(key, (String) attributesMap.get(key));
+    //     }
+    //     if(jsonMap.containsKey(state)){
+    //         statemap = (Map<String, Object>) jsonMap.get(state);               
+    //     }
+    //     for(String key : statemap.keySet()) {
+    //         paramValueMap.put(key, (String) statemap.get(key));
+    //     }
+    //     return paramValueMap;
+    // }
         
     
     /**

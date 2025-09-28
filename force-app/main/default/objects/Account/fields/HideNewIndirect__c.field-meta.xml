@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideNewIndirect__c</fullName>
+    <formula>OR($Profile.Name ==&apos;System Administrator&apos;,
+LEFT($User.GNT__OrganizationId__c, 15) == LEFT(Id, 15),
+LEFT($User.GNT__OrganizationId__c, 15) == LEFT(ParentId, 15)
+)</formula>
+    <label>X_HideNewIndirect</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

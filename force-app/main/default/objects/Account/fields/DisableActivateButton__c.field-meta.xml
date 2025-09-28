@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisableActivateButton__c</fullName>
+    <description>Button logic to hide the Activate button on the Internal organization</description>
+    <formula>if(ISPICKVAL(Status__c , &apos;Active&apos;) , true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>X_Disable Activate Button</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

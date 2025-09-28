@@ -115,7 +115,7 @@ global virtual with sharing class ProgramEditCtrl extends ExtensibleGenericCtrl 
         recordId = lightningObject.currentRecordId;
         if (String.isNotBlank(lightningObject.currentPageUrl)) {
             //Accessing the url parameters
-            paramValueMap = getUrlParamLWC(lightningObject.currentPageUrl);
+            paramValueMap = AppUtils.getUrlParamLWC(lightningObject.currentPageUrl);
             recordtype = paramValueMap.get('RecordType');
             if (recordId == null) {
                 recordId = paramValueMap.get('id');
@@ -128,8 +128,7 @@ global virtual with sharing class ProgramEditCtrl extends ExtensibleGenericCtrl 
         Set<Id> accIdSet = new Set<Id>();
         if(logUser!=null && logUser.GNT__OrganizationId__c!=null){
             for(Account acc : [
-                SELECT 
-                    Id,ParentId,Parent.ParentId,Parent.Parent.ParentId 
+                SELECT Id,ParentId,Parent.ParentId,Parent.Parent.ParentId 
                 FROM Account 
                 WHERE  Id =:logUser.GNT__OrganizationId__c
                 WITH USER_MODE
@@ -145,33 +144,11 @@ global virtual with sharing class ProgramEditCtrl extends ExtensibleGenericCtrl 
                     accIdSet.add(acc.Parent.Parent.ParentId);
                 }
             }
-        }
-        Map<Id,User> userIdsMap = new Map<Id,User>([SELECT id FROM User WHERE GNT__OrganizationId__c IN:accIdSet WITH SYSTEM_MODE ]);
-        return userIdsMap.keySet();
-    }
+    	}
+		Map<Id,User> userIdsMap = new Map<Id,User>([SELECT id FROM User WHERE GNT__OrganizationId__c IN:accIdSet WITH SYSTEM_MODE ]);
+		return userIdsMap.keySet();
+	}
     global Map<String, String> getUrlParamLWC(String urlVar) {
-        Map<String, Object> jsonMap = (Map<String, Object>) JSON.deserializeUntyped(urlVar);
-        Map<String, Object> attributesMap = new Map<String, Object>();
-        Map<String, Object> statemap = new Map<String, Object>();
-        Map<String, String> paramValueMap = new Map<String, String>();
-        String attributes = 'attributes';
-        string state = 'state';
-
-        if(jsonMap.containsKey(attributes)){
-            attributesMap = (Map<String, Object>) jsonMap.get(attributes);               
-        }
-        for(String key : attributesMap.keySet()) {
-            paramValueMap.put(key, (String) attributesMap.get(key));
-        }
-        if(jsonMap.containsKey(state)){
-            statemap = (Map<String, Object>) jsonMap.get(state);               
-        }
-        for(String key : statemap.keySet()) {
-            paramValueMap.put(key, (String) statemap.get(key));
-        }
-        
-
-        return paramValueMap;
+        return AppUtils.getUrlParamLWC(urlVar);
     }
-
 }

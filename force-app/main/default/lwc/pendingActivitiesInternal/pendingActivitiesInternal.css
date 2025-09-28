@@ -1,0 +1,127 @@
+.slds__card-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    grid-auto-columns: minmax(0, 1fr);
+}
+
+.card-color:nth-child(1) {
+    background-color: #ffe2e6;
+}
+
+.card-color:nth-child(2) {
+    background-color: #fff4de;
+}
+
+.card-color:nth-child(3) {
+    background-color: #dcfce7;
+}
+
+.card-color:nth-child(4) {
+    background-color: #f4e8fe;
+}
+
+.card-color:nth-child(1) .icon-bgcolor {
+    background-color: #f0617f;
+}
+
+.card-color:nth-child(2) .icon-bgcolor{
+    background-color: #FC623B;
+}
+
+.card-color:nth-child(3) .icon-bgcolor{
+    background-color: #27AA3A;
+}
+
+.card-color:nth-child(4) .icon-bgcolor{
+    background-color: #B575F5;
+}
+
+.clickable-div {
+    cursor: pointer;
+}
+
+.slds__section-wrapper {
+    grid-auto-columns: 2.5fr 1fr;
+}
+
+.slds__section-wrapper .activity-card{
+    position: relative;
+}
+
+.slds__section-wrapper .activity-card .white-utility-icon{
+    position: absolute;
+    right: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.slds__section-wrapper .activity-card .count-section{
+    margin-top: 30px;
+}
+
+.activity-card {
+    border-radius: 5px;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.count-section .count-current {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+.count-section .title-current {
+    color: #000000;
+	font-size: 14px;
+}
+
+.slds-grid_column {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    grid-auto-columns: minmax(0, 1fr);
+}
+
+.white-utility-icon {
+    --sds-c-icon-color-foreground-default: #ffffff;
+}
+
+.slds__pending-items .activity-card {
+    height: 138px;
+}
+
+@media (min-width: 1600px) {
+    .slds__pending-items .activity-card .count-section .title-current{
+        font-size: 16px;
+    }   
+    .slds__pending-items .activity-card .count-section .count-current{
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .slds-grid_column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .count-section .title-current {
+        color: #000000;
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slds-grid_column {
+         grid-template-columns: 1fr;
+         display: block;
+    }
+    .pend-act-mob {
+        margin-bottom: 10px;
+    }
+    .count-section .title-current {
+        color: #000000;
+        font-size: 14px !important;
+    }
+}

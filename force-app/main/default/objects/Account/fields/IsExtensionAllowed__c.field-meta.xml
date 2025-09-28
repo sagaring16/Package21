@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsExtensionAllowed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This filed is being used on grantor ---&gt; planning --&gt;  manage recipient</description>
+    <label>Is Extension Allowed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

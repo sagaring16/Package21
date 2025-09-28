@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Additive</fullName>
+        <default>true</default>
+        <label>Additive</label>
+    </customValue>
+    <customValue>
+        <fullName>Deductive</fullName>
+        <default>false</default>
+        <label>Deductive</label>
+    </customValue>
+    <customValue>
+        <fullName>Matching</fullName>
+        <default>false</default>
+        <label>Matching</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA</label>
+    </customValue>
+    <masterLabel>Program Income Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

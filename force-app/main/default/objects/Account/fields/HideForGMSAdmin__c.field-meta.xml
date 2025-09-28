@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideForGMSAdmin__c</fullName>
+    <formula>IF(ISPICKVAL(Type, &apos;Executive&apos;), True, 
+IF(ISPICKVAL(Type, &apos;Agency&apos;) &amp;&amp; ISPICKVAL(Parent.Type,&apos;Root&apos; ), True, 
+IF(ISPICKVAL(Type, &apos;Division&apos;)&amp;&amp; ISPICKVAL(Parent.Parent.Type,&apos;Root&apos; ), True, 
+IF(ISPICKVAL(Type, &apos;Office&apos;) &amp;&amp; ISPICKVAL(Parent.Parent.Parent.Type,&apos;Root&apos; ), True,false))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>X_HideForGMSAdmin</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChildRecordCount__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Keeps the count of number of childs belonging to this account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used to keep track of child count for parent record.</inlineHelpText>
+    <label>X_Child Record Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

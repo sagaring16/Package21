@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsUser__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to specify if this contact is also a user , if the checkbox is checked then this contact is also existing as a User
+Used for GOVSBIR</description>
+    <label>Is User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

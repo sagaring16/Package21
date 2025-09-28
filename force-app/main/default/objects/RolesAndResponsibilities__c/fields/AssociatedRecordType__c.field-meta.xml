@@ -3,35 +3,7 @@
     <fullName>AssociatedRecordType__c</fullName>
     <description>Whenever adding any new object/field, please make modification to Generic Utility also. The field used in Generic Utility for peer review</description>
     <externalId>false</externalId>
-    <formula>IF(AmendmentRequest__c != null , &apos;Amendment Request&apos;, 
-IF(Application__c!= null , &apos;Application&apos;, 
-IF(Award__c!= null , &apos;Award&apos;, 
-IF(Closeout__c!= null , &apos;Closeout&apos;, 
-IF(Announcement__c!= null , &apos;Announcement&apos;, 
-IF(PageTemplateConfig__c!= null , &apos;Page Template Config&apos;, 
-IF(PaymentRequest__c!= null , &apos;Payment Request&apos;, 
-IF(PreApplication__c!= null , &apos;Pre-Application&apos;, 
-IF(Program__c!= null , &apos;Program&apos;, 
-IF(ProgressReport__c!= null , IF( ISPICKVAL(ProgressReport__r.ReportType__c, &apos;Program&apos;), &apos;Progress Report&apos;, &apos;Financial Report&apos;),
-IF(ReviewStep__c!= null , &apos;Review Step&apos;, 
-IF(RiskAssessment__c!= null , &apos;Risk Assessment&apos;, 
-IF(SiteVisit__c!= null , IF( ISPICKVAL(SiteVisit__r.ReviewType__c, &apos;Desk Review&apos;), &apos;Desk Review&apos;, &apos;Site Visit&apos;)   ,  
-IF(Agency__c != null , &apos;Organization&apos;, 
-null 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-) 
-)</formula>
+    <formula>IF(Program__c!= null , &apos;Program&apos;,null)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Associated Record Type</label>
     <required>false</required>

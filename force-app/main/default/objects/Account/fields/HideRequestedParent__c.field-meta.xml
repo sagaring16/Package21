@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideRequestedParent__c</fullName>
+    <formula>OR(
+  ParentId != null,
+  AND(
+    ParentId = null,
+    ParentOrgPending__c != true
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>X_Hide Requested Parent</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HeadAgency__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If yes, Organization can or does have child agencies.</description>
+    <label>B_Head Agency</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

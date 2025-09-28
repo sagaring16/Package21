@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReviewerApprover__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field stores the user for approving external reviewer</description>
+    <label>X_External Reviewer Approver</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

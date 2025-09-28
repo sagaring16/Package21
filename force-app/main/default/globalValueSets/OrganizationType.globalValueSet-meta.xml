@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>&quot;D12: 12th Grade less than 2 Yr College (Private US)</fullName>
+        <default>false</default>
+        <label>&quot;D12: 12th Grade less than 2 Yr College (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A02: 12th Grade less than 2 Yr College (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A02: 12th Grade less than 2 Yr College (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C02: 12th Grade less than 2 Yr College (Public, Local)</fullName>
+        <default>false</default>
+        <label>C02: 12th Grade less than 2 Yr College (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B02: 12th Grade less than 2 Yr College (Public, State)</fullName>
+        <default>false</default>
+        <label>B02: 12th Grade less than 2 Yr College (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>D13: 2 But less than 4 Yr College (Private US)</fullName>
+        <default>false</default>
+        <label>D13: 2 But less than 4 Yr College (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A03: 2 But less than 4 Yr College (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A03: 2 But less than 4 Yr College (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C03: 2 But less than 4 Yr College (Public, Local)</fullName>
+        <default>false</default>
+        <label>C03: 2 But less than 4 Yr College (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B03: 2 But less than 4 Yr College (Public, State)</fullName>
+        <default>false</default>
+        <label>B03: 2 But less than 4 Yr College (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>I60: All Foreign and International Organization</fullName>
+        <default>false</default>
+        <label>I60: All Foreign and International Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>D10: All U.S. Academic Institution NCE</fullName>
+        <default>false</default>
+        <label>D10: All U.S. Academic Institution NCE</label>
+    </customValue>
+    <customValue>
+        <fullName>D14: Bachelor&apos;s 1st Prof Dgr (Private US)</fullName>
+        <default>false</default>
+        <label>D14: Bachelor&apos;s 1st Prof Dgr (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A04: Bachelor&apos;s 1st Prof Dgr (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A04: Bachelor&apos;s 1st Prof Dgr (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C04: Bachelor&apos;s 1st Prof Dgr (Public, Local)</fullName>
+        <default>false</default>
+        <label>C04: Bachelor&apos;s 1st Prof Dgr (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B04: Bachelor&apos;s 1st Prof Dgr (Public, State)</fullName>
+        <default>false</default>
+        <label>B04: Bachelor&apos;s 1st Prof Dgr (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>K81: Consortium Academic Institutions</fullName>
+        <default>false</default>
+        <label>K81: Consortium Academic Institutions</label>
+    </customValue>
+    <customValue>
+        <fullName>K82: Consortium NonAcad and Acad Orgs</fullName>
+        <default>false</default>
+        <label>K82: Consortium NonAcad and Acad Orgs</label>
+    </customValue>
+    <customValue>
+        <fullName>K80: Consortium NonAcademic Organizations</fullName>
+        <default>false</default>
+        <label>K80: Consortium NonAcademic Organizations</label>
+    </customValue>
+    <customValue>
+        <fullName>E24: FFRDC</fullName>
+        <default>false</default>
+        <label>E24: FFRDC</label>
+    </customValue>
+    <customValue>
+        <fullName>E26: FFRDC (Industrial)</fullName>
+        <default>false</default>
+        <label>E26: FFRDC (Industrial)</label>
+    </customValue>
+    <customValue>
+        <fullName>E25: FFRDC (NonProfit)</fullName>
+        <default>false</default>
+        <label>E25: FFRDC (NonProfit)</label>
+    </customValue>
+    <customValue>
+        <fullName>I66: Foreign Individual</fullName>
+        <default>false</default>
+        <label>I66: Foreign Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>I65: Foreign National Government Agencies</fullName>
+        <default>false</default>
+        <label>I65: Foreign National Government Agencies</label>
+    </customValue>
+    <customValue>
+        <fullName>I63: Foreign NonProfit NonAcademic</fullName>
+        <default>false</default>
+        <label>I63: Foreign NonProfit NonAcademic</label>
+    </customValue>
+    <customValue>
+        <fullName>I62: Foreign Private Academic Institution</fullName>
+        <default>false</default>
+        <label>I62: Foreign Private Academic Institution</label>
+    </customValue>
+    <customValue>
+        <fullName>I64: Foreign Private Profit Organization</fullName>
+        <default>false</default>
+        <label>I64: Foreign Private Profit Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>I61: Foreign Public Academic Institution</fullName>
+        <default>false</default>
+        <label>I61: Foreign Public Academic Institution</label>
+    </customValue>
+    <customValue>
+        <fullName>I67: International Centers Outside the U.S.</fullName>
+        <default>false</default>
+        <label>I67: International Centers Outside the U.S.</label>
+    </customValue>
+    <customValue>
+        <fullName>I69: International Organizations Government</fullName>
+        <default>false</default>
+        <label>I69: International Organizations Government</label>
+    </customValue>
+    <customValue>
+        <fullName>I68: International Organizations NonGovt</fullName>
+        <default>false</default>
+        <label>I68: International Organizations NonGovt</label>
+    </customValue>
+    <customValue>
+        <fullName>D11: Work Through 12th Grade (Private US)</fullName>
+        <default>false</default>
+        <label>D11: Work Through 12th Grade (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A01: Work Through 12th Grade (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A01: Work Through 12th Grade (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C01: Work Through 12th Grade (Public, Local)</fullName>
+        <default>false</default>
+        <label>C01: Work Through 12th Grade (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B01: Work Through 12th Grade (Public, State)</fullName>
+        <default>false</default>
+        <label>B01: Work Through 12th Grade (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>F30: Large Corporation Business</fullName>
+        <default>false</default>
+        <label>F30: Large Corporation Business</label>
+    </customValue>
+    <customValue>
+        <fullName>E23: Local Government</fullName>
+        <default>false</default>
+        <label>E23: Local Government</label>
+    </customValue>
+    <customValue>
+        <fullName>D15: Masters 2nd Prof Dgr (Private US)</fullName>
+        <default>false</default>
+        <label>D15: Masters 2nd Prof Dgr (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A05: Masters 2nd Prof Dgr (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A05: Masters 2nd Prof Dgr (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C05: Masters 2nd Prof Dgr (Public, Local)</fullName>
+        <default>false</default>
+        <label>C05: Masters 2nd Prof Dgr (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B05: Masters 2nd Prof Dgr (Public, State)</fullName>
+        <default>false</default>
+        <label>B05: Masters 2nd Prof Dgr (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>E20: NonProfit Academic Federal (NCE)</fullName>
+        <default>false</default>
+        <label>E20: NonProfit Academic Federal (NCE)</label>
+    </customValue>
+    <customValue>
+        <fullName>D17: Other (Private US)</fullName>
+        <default>false</default>
+        <label>D17: Other (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A07: Other (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A07: Other (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C07: Other (Public, Local)</fullName>
+        <default>false</default>
+        <label>C07: Other (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B07: Other (Public, State)</fullName>
+        <default>false</default>
+        <label>B07: Other (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>D16: PhD and Equivalent Degree (Private US)</fullName>
+        <default>false</default>
+        <label>D16: PhD and Equivalent Degree (Private US)</label>
+    </customValue>
+    <customValue>
+        <fullName>A06: PhD and Equivalent Degree (Public, Federal)</fullName>
+        <default>false</default>
+        <label>A06: PhD and Equivalent Degree (Public, Federal)</label>
+    </customValue>
+    <customValue>
+        <fullName>C06: PhD and Equivalent Degree (Public, Local)</fullName>
+        <default>false</default>
+        <label>C06: PhD and Equivalent Degree (Public, Local)</label>
+    </customValue>
+    <customValue>
+        <fullName>B06: PhD and Equivalent Degree (Public, State)</fullName>
+        <default>false</default>
+        <label>B06: PhD and Equivalent Degree (Public, State)</label>
+    </customValue>
+    <customValue>
+        <fullName>E21: Private</fullName>
+        <default>false</default>
+        <label>E21: Private</label>
+    </customValue>
+    <customValue>
+        <fullName>F31: Small Business</fullName>
+        <default>false</default>
+        <label>F31: Small Business</label>
+    </customValue>
+    <customValue>
+        <fullName>E22: State Government</fullName>
+        <default>false</default>
+        <label>E22: State Government</label>
+    </customValue>
+    <customValue>
+        <fullName>H50: U.S. Citizen Resident</fullName>
+        <default>false</default>
+        <label>H50: U.S. Citizen Resident</label>
+    </customValue>
+    <customValue>
+        <fullName>G40: U.S. Government Agency</fullName>
+        <default>false</default>
+        <label>G40: U.S. Government Agency</label>
+    </customValue>
+    <masterLabel>Organization Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -15,7 +15,6 @@
     <label>SBIR/STTR Portal</label>
     <navType>Standard</navType>
     <tabs>Home</tabs>
-    <tabs>Ownership</tabs>
     <tabs>Planning</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

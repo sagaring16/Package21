@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Zip_Code</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK(MailingPostalCode)) , 
+OR(LEN(MailingPostalCode) != 5, NOT(ISNUMBER(MailingPostalCode))) 
+)</errorConditionFormula>
+    <errorMessage>Please Enter 5 Digit Zip Code</errorMessage>
+</ValidationRule>

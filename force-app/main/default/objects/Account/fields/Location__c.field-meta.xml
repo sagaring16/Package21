@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <description>To specify the latitude and longitude for the Account where it is located</description>
+    <displayLocationInDecimal>false</displayLocationInDecimal>
+    <label>X_Location</label>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Location</type>
+</CustomField>

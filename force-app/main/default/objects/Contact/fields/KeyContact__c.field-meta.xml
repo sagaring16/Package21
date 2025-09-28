@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KeyContact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is the check box created to identify the key primary contact for an organization</description>
+    <label>KeyContact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

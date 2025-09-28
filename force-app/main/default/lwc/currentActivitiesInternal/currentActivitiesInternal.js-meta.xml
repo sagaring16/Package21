@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<masterLabel>Current Activities Internal</masterLabel>
+	<apiVersion>60.0</apiVersion>
+	<description>This LWC will be used generally on the home page for showing important statistics related to current activities.</description>
+	<isExposed>true</isExposed>
+	<targets>
+		<target>lightning__AppPage</target>
+	</targets>
+		<targetConfigs>
+        <targetConfig targets="lightning__AppPage ">
+            <property name="uniqueName"  label="Unique Name" type="String" default="None"/>
+			<property name="title"  label="Title" type="String"/>	
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

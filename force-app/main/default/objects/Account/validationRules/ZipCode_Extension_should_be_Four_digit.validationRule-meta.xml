@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZipCode_Extension_should_be_Four_digit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(BillingPostalCodeExtension__c)),
+OR(
+NOT(ISNUMBER(BillingPostalCodeExtension__c)),
+LEN(BillingPostalCodeExtension__c) != 4
+)
+)</errorConditionFormula>
+    <errorMessage>Please Enter 4 Digit Zip Code Extension.</errorMessage>
+</ValidationRule>

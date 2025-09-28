@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Project Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field Representative</fullName>
+                <default>false</default>
+                <label>Field Representative</label>
+            </value>
+            <value>
+                <fullName>Grants Management Officer</fullName>
+                <default>false</default>
+                <label>Grants Management Officer</label>
+            </value>
+            <value>
+                <fullName>Grants Management Specialist</fullName>
+                <default>false</default>
+                <label>Grants Management Specialist</label>
+            </value>
+            <value>
+                <fullName>Project Director/PI</fullName>
+                <default>false</default>
+                <label>Project Director/Principal Investigator(PI/PD)</label>
+            </value>
+            <value>
+                <fullName>Project Officer</fullName>
+                <default>false</default>
+                <label>Project Officer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

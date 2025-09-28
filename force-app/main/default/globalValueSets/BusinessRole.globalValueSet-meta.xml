@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Program Approver</fullName>
+        <default>false</default>
+        <label>Program Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>Program Reviewer</fullName>
+        <default>false</default>
+        <label>Program Reviewer</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiscal Approver</fullName>
+        <default>false</default>
+        <label>Fiscal Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiscal Reviewer</fullName>
+        <default>false</default>
+        <label>Fiscal Reviewer</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal Approver</fullName>
+        <default>false</default>
+        <label>Legal Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Approver</fullName>
+        <default>false</default>
+        <label>Executive Approver</label>
+    </customValue>
+    <customValue>
+        <fullName>Grants Administrator</fullName>
+        <default>false</default>
+        <label>Grants Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Key POC</fullName>
+        <default>false</default>
+        <label>Key POC</label>
+    </customValue>
+    <customValue>
+        <fullName>Owner</fullName>
+        <default>false</default>
+        <label>Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Author</fullName>
+        <default>false</default>
+        <label>Author</label>
+    </customValue>
+    <customValue>
+        <fullName>EBiz POC</fullName>
+        <default>false</default>
+        <label>EBiz POC</label>
+    </customValue>
+    <customValue>
+        <fullName>SME Reviewer</fullName>
+        <default>false</default>
+        <label>SME Reviewer</label>
+    </customValue>
+    <customValue>
+        <fullName>Informed Person</fullName>
+        <default>false</default>
+        <label>Informed Person</label>
+    </customValue>
+    <customValue>
+        <fullName>Peer Reviewer</fullName>
+        <default>false</default>
+        <label>Peer Reviewer</label>
+    </customValue>
+    <customValue>
+        <fullName>Money Draw</fullName>
+        <default>false</default>
+        <label>Money Draw</label>
+    </customValue>
+    <customValue>
+        <fullName>Step1</fullName>
+        <default>false</default>
+        <label>Step 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Step2</fullName>
+        <default>false</default>
+        <label>Step 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Step3</fullName>
+        <default>false</default>
+        <label>Step 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Step4</fullName>
+        <default>false</default>
+        <label>Step 4</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>true</default>
+        <label>NA</label>
+    </customValue>
+    <description>This picklist is used in Roles and 
+ Responsibilities object to display business roles.</description>
+    <masterLabel>Business Role</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,33 @@
+<template>
+    <div class="slds-grid slds-wrap slds__card-wrapper slds__section-wrapper slds-x-top--small">
+        <div class="upcoming-activity-wrapper">
+            <article class="slds-card slds-p-around_x-small">
+                <div class="slds-card__header slds-grid slds-m-bottom_medium">
+                    <header class="slds-media slds-media_center">
+                        <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                                <span tabindex="0">{title}</span>
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-grid_column slds-upcomming-activity upcom-act-ipad">
+                    <template for:each={carddata} for:item="records">
+                        <div key={records.title} class="card-color slds-p-top_small full-width-item clickable-div activity-card slds-p-around_x-small slds-award-amount" 
+                            onclick={fetchChart} data-key={records.report} data-id={records.json.url} data-tablename={records.tablename} title={records.json.textOnHover}>
+                                <lightning-icon icon-name={records.json.icon} class="icon-bgcolor slds-icon-action-add-file white-utility-icon"
+                                    alternative-text={records.title} tabindex="0" size="Small">
+                                </lightning-icon>
+                                <div class="count-section">
+                                    <p class="count-current" tabindex="0">
+                                            <template if:true={records.json.isAmount}>$</template>{records.count}
+                                    </p>
+                                    <p class="title-current" tabindex="0">{records.title}</p>
+                                </div>
+                        </div>
+                    </template>
+                </div>
+            </article>
+        </div>
+    </div>
+</template>

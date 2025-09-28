@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactRelatedJunctionObject__c</fullName>
+    <description>If any value selected then in contact trigger we will check which object selected and will create junction object record.
+Ex. If picklist value is Program then in trigger we will create ProgramContact__c object&apos;s record.</description>
+    <inlineHelpText>If picklist value is Program then in trigger we will create ProgramContact__c object&apos;s record.</inlineHelpText>
+    <label>X_Contact Related Junction Object</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Program</fullName>
+                <default>false</default>
+                <label>Program</label>
+            </value>
+            <value>
+                <fullName>Award</fullName>
+                <default>false</default>
+                <label>Award</label>
+            </value>
+            <value>
+                <fullName>Announcement</fullName>
+                <default>false</default>
+                <label>Announcement</label>
+            </value>
+            <value>
+                <fullName>PreApplication</fullName>
+                <default>false</default>
+                <label>PreApplication</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>AmendmentRequest</fullName>
+                <default>false</default>
+                <label>AmendmentRequest</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

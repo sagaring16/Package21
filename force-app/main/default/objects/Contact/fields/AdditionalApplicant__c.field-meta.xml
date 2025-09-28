@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalApplicant__c</fullName>
+    <description>This is the applicant that is added from the external primary user.</description>
+    <label>X_Additional Applicant</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
+            </value>
+            <value>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+                <label>Secondary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

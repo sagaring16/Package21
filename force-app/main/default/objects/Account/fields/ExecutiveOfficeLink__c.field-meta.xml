@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExecutiveOfficeLink__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+AND( 
+ISPICKVAL(Parent.Type, &apos;Executive&apos;), 
+Parent.Name != &apos;GMS Administrator&apos; 
+), 
+HYPERLINK(&apos;/&apos; &amp; ParentId, ExecutiveOffice__c ,&apos;_blank&apos;) , 
+&apos;NA&apos; 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Executive Office</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SecondaryAreaOfExpertisePicklist__c</fullName>
+    <description>This field is to save the secondary expertise entered by the reviewer</description>
+    <label>SecondaryAreaOfExpertisePicklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ambulatory Care Programs</fullName>
+                <default>false</default>
+                <label>Ambulatory Care Programs</label>
+            </value>
+            <value>
+                <fullName>Primary Care</fullName>
+                <default>false</default>
+                <label>Primary Care</label>
+            </value>
+            <value>
+                <fullName>School-based Health Care</fullName>
+                <default>false</default>
+                <label>School-based Health Care</label>
+            </value>
+            <value>
+                <fullName>Capacity-building Initiatives</fullName>
+                <default>false</default>
+                <label>Capacity-building Initiatives</label>
+            </value>
+            <value>
+                <fullName>Capital Health (Construction) Projects</fullName>
+                <default>false</default>
+                <label>Capital Health (Construction) Projects</label>
+            </value>
+            <value>
+                <fullName>Children with Special Health Care Needs Chronic Disease</fullName>
+                <default>false</default>
+                <label>Children with Special Health Care Needs Chronic Disease</label>
+            </value>
+            <value>
+                <fullName>Cancer Prevention and Treatment</fullName>
+                <default>false</default>
+                <label>Cancer Prevention and Treatment</label>
+            </value>
+            <value>
+                <fullName>Maternal and Child Health Services Preventive Health Services</fullName>
+                <default>false</default>
+                <label>Maternal and Child Health Services Preventive Health Services</label>
+            </value>
+            <value>
+                <fullName>Breastfeeding</fullName>
+                <default>false</default>
+                <label>Breastfeeding</label>
+            </value>
+            <value>
+                <fullName>Home Visitation</fullName>
+                <default>false</default>
+                <label>Home Visitation</label>
+            </value>
+            <value>
+                <fullName>HIV Prevention Services (by risk/population)</fullName>
+                <default>false</default>
+                <label>HIV Prevention Services (by risk/population)</label>
+            </value>
+            <value>
+                <fullName>Adolescents/Young Adults</fullName>
+                <default>false</default>
+                <label>Adolescents/Young Adults</label>
+            </value>
+            <value>
+                <fullName>MSM</fullName>
+                <default>false</default>
+                <label>MSM</label>
+            </value>
+            <value>
+                <fullName>Heterosexual women and men Older Adults</fullName>
+                <default>false</default>
+                <label>Heterosexual women and men Older Adults</label>
+            </value>
+            <value>
+                <fullName>Injection Drug Users Transgendered Persons</fullName>
+                <default>false</default>
+                <label>Injection Drug Users Transgendered Persons</label>
+            </value>
+            <value>
+                <fullName>Care, amend and Support Services</fullName>
+                <default>false</default>
+                <label>Care, amend and Support Services</label>
+            </value>
+            <value>
+                <fullName>Ambulatory Outpatient Medical Care Oral Health</fullName>
+                <default>false</default>
+                <label>Ambulatory Outpatient Medical Care Oral Health</label>
+            </value>
+            <value>
+                <fullName>Medical Case Management Treatment Adherence Services</fullName>
+                <default>false</default>
+                <label>Medical Case Management Treatment Adherence Services</label>
+            </value>
+            <value>
+                <fullName>Clinical Nutrition</fullName>
+                <default>false</default>
+                <label>Clinical Nutrition</label>
+            </value>
+            <value>
+                <fullName>Early Intervention Services Home and Community-based care</fullName>
+                <default>false</default>
+                <label>Early Intervention Services Home and Community-based care</label>
+            </value>
+            <value>
+                <fullName>Mental Health Services</fullName>
+                <default>false</default>
+                <label>Mental Health Services</label>
+            </value>
+            <value>
+                <fullName>Substance Abuse Services</fullName>
+                <default>false</default>
+                <label>Substance Abuse Services</label>
+            </value>
+            <value>
+                <fullName>Food Bank, Home Delivered Meals Legal Services</fullName>
+                <default>false</default>
+                <label>Food Bank, Home Delivered Meals Legal Services</label>
+            </value>
+            <value>
+                <fullName>Linguistic Services</fullName>
+                <default>false</default>
+                <label>Linguistic Services</label>
+            </value>
+            <value>
+                <fullName>Psycho-social Support Services Outreach</fullName>
+                <default>false</default>
+                <label>Psycho-social Support Services Outreach</label>
+            </value>
+            <value>
+                <fullName>Medical Transportation Services</fullName>
+                <default>false</default>
+                <label>Medical Transportation Services</label>
+            </value>
+            <value>
+                <fullName>HIV Housing Support Services</fullName>
+                <default>false</default>
+                <label>HIV Housing Support Services</label>
+            </value>
+            <value>
+                <fullName>HIV Testing, Referral and Navigator Services</fullName>
+                <default>false</default>
+                <label>HIV Testing, Referral and Navigator Services</label>
+            </value>
+            <value>
+                <fullName>Retention Services (for care and treatment)</fullName>
+                <default>false</default>
+                <label>Retention Services (for care and treatment)</label>
+            </value>
+            <value>
+                <fullName>Emergency Financial Assistance</fullName>
+                <default>false</default>
+                <label>Emergency Financial Assistance</label>
+            </value>
+            <value>
+                <fullName>Hepatitis Prevention &amp; Treatment Services</fullName>
+                <default>false</default>
+                <label>Hepatitis Prevention &amp; Treatment Services</label>
+            </value>
+            <value>
+                <fullName>Sexually Transmitted Disease Prevention</fullName>
+                <default>false</default>
+                <label>Sexually Transmitted Disease Prevention</label>
+            </value>
+            <value>
+                <fullName>Sexually Transmitted Disease Treatment</fullName>
+                <default>false</default>
+                <label>Sexually Transmitted Disease Treatment</label>
+            </value>
+            <value>
+                <fullName>Tuberculosis Treatment</fullName>
+                <default>false</default>
+                <label>Tuberculosis Treatment</label>
+            </value>
+            <value>
+                <fullName>Disease Co-Management Traumatic Brain Injury Concussion Protocol</fullName>
+                <default>false</default>
+                <label>Disease Co-Management Traumatic Brain Injury Concussion Protocol</label>
+            </value>
+            <value>
+                <fullName>Supplemental Food and Nutrition Programs</fullName>
+                <default>false</default>
+                <label>Supplemental Food and Nutrition Programs</label>
+            </value>
+            <value>
+                <fullName>Food Pantry</fullName>
+                <default>false</default>
+                <label>Food Pantry</label>
+            </value>
+            <value>
+                <fullName>Physical Fitness and Nutrition</fullName>
+                <default>false</default>
+                <label>Physical Fitness and Nutrition</label>
+            </value>
+            <value>
+                <fullName>Obesity Prevention</fullName>
+                <default>false</default>
+                <label>Obesity Prevention</label>
+            </value>
+            <value>
+                <fullName>Oral Health Care</fullName>
+                <default>false</default>
+                <label>Oral Health Care</label>
+            </value>
+            <value>
+                <fullName>Sustainability and Resilience Planning Teen Pregnancy Prevention</fullName>
+                <default>false</default>
+                <label>Sustainability and Resilience Planning Teen Pregnancy Prevention</label>
+            </value>
+            <value>
+                <fullName>Needle Exchange and Harm Reduction</fullName>
+                <default>false</default>
+                <label>Needle Exchange and Harm Reduction</label>
+            </value>
+            <value>
+                <fullName>Tobacco and Smoking Cessation</fullName>
+                <default>false</default>
+                <label>Tobacco and Smoking Cessation</label>
+            </value>
+            <value>
+                <fullName>Violence Prevention</fullName>
+                <default>false</default>
+                <label>Violence Prevention</label>
+            </value>
+            <value>
+                <fullName>Surveillance and Incidence Reporting</fullName>
+                <default>false</default>
+                <label>Surveillance and Incidence Reporting</label>
+            </value>
+            <value>
+                <fullName>Faith-based Health Initiatives</fullName>
+                <default>false</default>
+                <label>Faith-based Health Initiatives</label>
+            </value>
+            <value>
+                <fullName>Networking and Community Partnerships</fullName>
+                <default>false</default>
+                <label>Networking and Community Partnerships</label>
+            </value>
+            <value>
+                <fullName>Health Emergency Preparedness Immunization</fullName>
+                <default>false</default>
+                <label>Health Emergency Preparedness Immunization</label>
+            </value>
+            <value>
+                <fullName>Occupational Health and Injury Prevention</fullName>
+                <default>false</default>
+                <label>Occupational Health and Injury Prevention</label>
+            </value>
+            <value>
+                <fullName>Data Reporting and Evaluation Quality Assurance</fullName>
+                <default>false</default>
+                <label>Data Reporting and Evaluation Quality Assurance</label>
+            </value>
+            <value>
+                <fullName>Partnerships and Coalition-building</fullName>
+                <default>false</default>
+                <label>Partnerships and Coalition-building</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

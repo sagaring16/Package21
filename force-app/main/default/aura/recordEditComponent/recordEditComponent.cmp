@@ -1,0 +1,4 @@
+<aura:component controller="recordEditCtrl" implements="lightning:actionOverride,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <c:recordEdit recordId="{!v.recordId}"></c:recordEdit>  
+</aura:component>

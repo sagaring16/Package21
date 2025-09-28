@@ -1,0 +1,146 @@
+.slds__card-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    grid-auto-columns: minmax(0, 1fr);
+}
+
+.card-color:nth-child(1) {
+    background-color: #dcfce7;
+}
+
+.card-color:nth-child(2) {
+    background-color: #ffe2e6;
+}
+
+.card-color:nth-child(3) {
+    background-color: #fff4de;
+}
+
+.card-color:nth-child(4) {
+    background-color: #f4e8fe;
+}
+
+.card-color:nth-child(1) .icon-bgcolor {
+    background-color: #27AA3A;
+}
+
+.card-color:nth-child(2) .icon-bgcolor{
+    background-color: #f0617f;
+}
+
+.card-color:nth-child(3) .icon-bgcolor{
+    background-color: #FC623B;
+}
+
+.card-color:nth-child(4) .icon-bgcolor{
+    background-color: #B575F5;
+}
+
+
+.clickable-div {
+    cursor: pointer;
+}
+
+.slds__section-wrapper {
+    grid-auto-columns: 2.5fr 1fr;
+}
+
+.slds__section-wrapper .activity-card{
+    position: relative;
+}
+
+.slds__section-wrapper .activity-card .white-utility-icon{
+    position: absolute;
+    right: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.slds__section-wrapper .activity-card .count-section{
+    margin-top: 30px;
+}
+
+.activity-card {
+    border-radius: 5px;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.count-section .count-current {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+.count-section .title-current {
+    color: #000000;
+    font-size: 14px;
+}
+
+.slds-grid_column {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    grid-auto-columns: minmax(0, 1fr);
+}
+
+.white-utility-icon {
+    --sds-c-icon-color-foreground-default: #ffffff;
+}
+
+.slds-upcomming-activity {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 138px;
+}
+
+.slds-upcomming-activity .white-utility-icon{
+    position: unset!important;
+    border-radius: 0;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.slds-upcomming-activity .count-section {
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slds-upcomming-activity .count-section .count-current {
+    padding: 0 !important;
+    font-size: 20px;
+}
+
+.slds-upcomming-activity .title-current {
+    font-size: 16px;
+}
+
+.slds-upcomming-activity .activity-card {
+    display: flex;
+    width: 100%;
+    flex: 1 100%;
+    gap: 15px;
+    align-items: center;
+    padding: 0px 10px 0 0;
+    border-radius: 0;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .upcom-act-ipad {
+        display: grid;
+        min-height: 70px;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .upcom-act-ipad {
+        display: flex;
+        height: 140px;
+    } 
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CountyAlphabetic_Value</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX( County__c ,&quot;^[a-z  A-Z ’]*$&quot;))</errorConditionFormula>
+    <errorMessage>Please enter alphabetic character in the County field.</errorMessage>
+</ValidationRule>

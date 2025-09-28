@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZipCode_should_be_max_Five_digit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(BillingPostalCode)),
+OR(
+NOT(ISNUMBER(BillingPostalCode)),
+LEN(BillingPostalCode) != 5
+)
+)</errorConditionFormula>
+    <errorMessage>Please Enter 5 Digit Zip Code.</errorMessage>
+</ValidationRule>

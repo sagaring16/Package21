@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChildOrganizationPending__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>An organization is pending approval to become a child of this Organization when this value is true.</description>
+    <label>B_Child Organization Pending</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

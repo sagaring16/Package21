@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserRegistered__c</fullName>
+    <description>This field is used to disable the send Invitation button</description>
+    <formula>IF(  ISPICKVAL(ReviewerStatus__c, &quot;Registered&quot;) , True, False)</formula>
+    <label>X_User Registered</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApplicantTypeOther__c</fullName>
+    <description>If the Applicant Type is other than the one specified in the available list of the values</description>
+    <externalId>false</externalId>
+    <label>X_Applicant Type Other</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

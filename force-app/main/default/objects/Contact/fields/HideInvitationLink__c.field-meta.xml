@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HideInvitationLink__c</fullName>
+    <description>Hide Invitation Link</description>
+    <formula>false</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Hide Invitation Link</inlineHelpText>
+    <label>B_Hide Invitation Link</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

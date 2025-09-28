@@ -1,0 +1,65 @@
+<template>
+	<lightning-card class="parent-card custom-card smallCard">
+        <div class="slds-grid slds-wrap slds__card-wrapper">
+            <div class="current-activity-wrapper">
+                <article class="slds-card slds-p-around_x-small">
+                    <div class="slds-card__header slds-grid slds-m-bottom_medium">
+                        <header class="slds-media slds-media_center">
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span tabindex="0">{title}</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-grid_column current-activity-box">
+                        <template for:each={carddata} for:item="records">
+                            <div key={records.title} class="card-color slds-p-top_small" title={records.json.textOnHover} onclick={fetchChart} data-key={records.report} data-id={records.json.url} data-tablename={records.tablename}>
+                                <a class="activity-card slds-p-around_x-small slds-active">
+                                    <lightning-icon icon-name={records.json.icon}
+                                        class="icon-bgcolor slds-icon-action-add-file white-utility-icon" tabindex="0" alternative-text={records.title}
+                                        size="Small">
+                                    </lightning-icon>
+                                    <div class="count-section">
+                                        <p class="count-current" tabindex="0">
+                                            <template if:true={records.json.isAmount}>$</template>{records.count}
+                                        </p>
+                                        <p class="title-current" tabindex="0">{records.title}</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </template>
+                    </div>
+                </article>
+            </div>
+        </div>
+	</lightning-card>
+
+    <!--<div class="support-button">
+        <a class="help_icons" tabindex="0">
+            <lightning-icon icon-name="utility:info" class="slds-icon-action-add-file white-utility-icon" tabindex="0"
+                alternative-text="Info" title="Info" size="Small">
+            </lightning-icon>
+        </a>
+        <div class="hide-section div-style" role="navigation" aria-label="Support Links">
+            <a href={technicalSupportPage} class="anchor-style" aria-label="Technical Support" tabindex="0">
+                <span class="span-style" tabindex="0">
+                    <lightning-icon icon-name="utility:workforce_engagement"
+                                    class="icon-style-tech-support slds-icon-action-add-file white-utility-icon" tabindex="0" alternative-text="Technical Support" title="Technical Support"
+                                    size="Small">
+                    </lightning-icon>
+                    Technical Support
+                </span>
+            </a>
+            <a href="#" aria-label="Help Section" tabindex="0">
+                <span class="span-style" tabindex="0">
+                    <lightning-icon icon-name="utility:listen"
+                                    class="icon-style-help slds-icon-action-add-file white-utility-icon" tabindex="0" alternative-text="Help" title="Help"
+                                    size="Small">
+                    </lightning-icon>
+                    Help
+                </span>
+            </a>
+        </div>
+    </div> Commented for Bug:474926 as per dicussed with Akshay;But need confirmation from managemnet to hide or show -->
+</template>

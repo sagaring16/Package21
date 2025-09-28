@@ -1,0 +1,186 @@
+.slds__card-wrapper {
+    display: grid;
+    gap: 10px;
+}
+
+/* .card-color:nth-child(1) .icon-bgcolor {
+    background-color: #f0617f;
+}
+
+.card-color:nth-child(2) .icon-bgcolor{
+    background-color: #FC623B;
+}
+
+.card-color:nth-child(3) .icon-bgcolor{
+    background-color: #27AA3A;
+}
+
+.card-color:nth-child(4) .icon-bgcolor{
+    background-color: #B575F5;
+} */
+.card-color:nth-child(1) .icon-bgcolor {
+    background-color: #27AA3A;
+}
+
+.card-color:nth-child(2) .icon-bgcolor{
+    background-color: #FC623B;
+}
+
+.card-color:nth-child(3) .icon-bgcolor{
+    background-color: #27AA3A;
+}
+
+.card-color:nth-child(4) .icon-bgcolor{
+    background-color: #FC623B;
+}
+
+
+.current-activity-box .activity-card {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: transparent;
+    justify-content: start;
+    align-content: stretch;
+    align-items: center;
+    justify-items: stretch
+}
+
+.activity-card {
+    border-radius: 5px;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+.count-section .count-current {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 700;
+    color: #000000;
+}
+
+.count-section .title-current {
+    color: #000000;
+	font-size: 14px;
+}
+
+.slds-grid_column {
+    display: grid;
+    gap: 10px;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-auto-flow: column;    
+    grid-auto-columns: minmax(0, 1fr);
+}
+
+.current-activity-box .activity-card .white-utility-icon{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.current-activity-box .activity-card .count-section {
+    padding-left: 20px;
+}
+
+.current-activity-box .activity-card .count-section .count-current {
+    padding: 0;
+}
+.slds-active {
+    background-color: #ffe2e6;
+}
+
+.white-utility-icon {
+    --sds-c-icon-color-foreground-default: #ffffff;
+}
+
+/* Floating button css*/
+.support-button .help_icons {
+    position: fixed; 
+    transition: 0.2s ease-out; 
+    bottom: 55px; 
+    right: 10px; 
+    z-index: 999; 
+    border: 5px solid #fff; 
+    border-radius: 50px;
+}
+
+.support-button .help_icons .white-utility-icon {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.support-button:hover .help_icons {
+    transition: 0.2s ease-in;
+}
+
+.support-button .help_icons ~ .hide-section{
+    display: none;
+}
+
+.support-button:hover .help_icons ~ .hide-section {
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 999;
+}
+
+.support-button {
+    position: relative;
+}
+
+.support-button .help_icons ~ .hide-section a {
+    padding: 10px;
+}
+
+.span-style{
+	padding-right: 10px; 
+	padding-left: 10px; 
+	color: #254068; 
+	font-size: 14px; 
+	font-weight:500;
+}
+
+.icon-style-tech-support{
+	margin-right: 10px; 
+	background-color: #fc623b;
+}
+
+.icon-style-help{
+	margin-right: 10px; 
+	background-color: #f0617f;
+}
+
+.anchor-style{
+	border-bottom: 1px solid #eee;
+}
+
+.div-style{
+	border: 2px solid #eee;
+}
+
+@media only screen and (max-width: 992px) {
+    .slds-grid_column {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: unset;
+        grid-auto-columns: unset;
+    }
+    .count-section .title-current {
+        color: #000000;
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slds-grid_column {
+         grid-template-columns: 1fr;
+        grid-auto-flow: unset;
+        grid-auto-columns: unset;
+    }
+}
